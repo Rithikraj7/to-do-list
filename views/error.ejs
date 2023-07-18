@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Error</h1>
+    <% if (typeof error==='string' ) { %>
+        <p>
+            <%= error %>
+        </p>
+        <% } else if (Array.isArray(errors)) { %>
+            <ul>
+                <% errors.forEach(error=> { %>
+                    <li>
+                        <%= error.msg %>
+                    </li>
+                    <% }); %>
+            </ul>
+            <% } %>
+</body>
+
+</html>
