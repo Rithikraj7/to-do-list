@@ -1,6 +1,7 @@
 # Todo List
 
 A simple Todo List application built with Express, MongoDB, and EJS.
+![Screenshot (155)](https://github.com/Rithikraj7/to-do-list/assets/108055323/17663f0b-b02b-4756-854a-3dacf8707f7f)
 
 ## Description
 
