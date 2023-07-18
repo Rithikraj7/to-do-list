@@ -41,10 +41,9 @@ The project relies on the following dependencies:
 - dotenv: ^16.1.3
 
 These dependencies are automatically installed when running the following command:
-
-```bash
-npm install
-
+   ```bash
+   npm install 
+```
 ## License
 
 This project is licensed under the [MIT License](LICENSE)
